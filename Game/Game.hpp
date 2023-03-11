@@ -1,8 +1,8 @@
 #ifndef Game_hpp
 #define Game_hpp
 
-#include "/Library/Frameworks/SDL2.framework/Headers/SDL.h"
-#include "/Library/Frameworks/SDL2_image.framework/Headers/SDL_image.h"
+#include "../SDL2.framework/Versions/A/Headers/SDL.h"
+#include "../SDL2_image.framework/Headers/SDL_image.h"
 #include <iostream>
 #include <vector>
 #include "Piece.hpp" // order and placing of imports is important

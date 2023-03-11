@@ -34,7 +34,7 @@ const char* Piece::retPath(int type)
 {
     switch (type) {
         case 1 ... 8:
-            return "/Users/bartek/xcode-workspace/Game/chess_pieces/white_pon.png";
+            return "/Users/bartek/xcode-workspace/Game/chess_pieces/white_pawn.png";
         case 9 ... 10:
             return "/Users/bartek/xcode-workspace/Game/chess_pieces/white_rook.png";
         case 11 ... 12:
@@ -46,7 +46,7 @@ const char* Piece::retPath(int type)
         case 16:
             return "/Users/bartek/xcode-workspace/Game/chess_pieces/white_king.png";
         case 17 ... 24:
-            return "/Users/bartek/xcode-workspace/Game/chess_pieces/black_pon.png";
+            return "/Users/bartek/xcode-workspace/Game/chess_pieces/black_pawn.png";
         case 25 ... 26:
             return "/Users/bartek/xcode-workspace/Game/chess_pieces/black_rook.png";
         case 27 ... 28:

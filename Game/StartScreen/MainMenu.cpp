@@ -9,6 +9,7 @@ MainMenu::MainMenu(SDL_Window* window, SDL_Renderer* renderer)
 {
     this->window = window;
     this->renderer = renderer;
+//    const char* = "../graphics/logo.png";
     background = TextureMaker::retTexture("/Users/bartek/xcode-workspace/Game/graphics/background.jpg", renderer);
     header = TextureMaker::retTexture("/Users/bartek/xcode-workspace/Game/graphics/logo.png" ,renderer);
     play1 = TextureMaker::retTexture("/Users/bartek/xcode-workspace/Game/graphics/play1.png", renderer);
