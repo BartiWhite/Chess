@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Game::allowedMovesCounter(int, int, int):WhiteKingCheckmate.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(y-1)*width + x-2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game::renderPosibleMoves(int, int):PiecesMoves.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(y-2)*width ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game::whiteCheckCheckAndPin(int, int):KingRelatedActivities.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "piecess[i]-&gt;dirRec.y/90 == tmpCover/10 &amp;&amp; piecess[i]-&gt;dirRec.x/90 == tmpCover%10">
+            </PersistentString>
+            <PersistentString
+               value = "tmpCover%10">
+            </PersistentString>
+            <PersistentString
+               value = "piecess[24 + i]-&gt;dirRec.x/90">
+            </PersistentString>
+            <PersistentString
+               value = "piecess[2]-&gt;isPined">
+            </PersistentString>
+            <PersistentString
+               value = "piecess[24 + i]-&gt;dirRec.y/90">
+            </PersistentString>
+            <PersistentString
+               value = "tmpCover/10">
+            </PersistentString>
+            <PersistentString
+               value = "piecess[25]-&gt;isAttacking">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game::deadGame(int):KingRelatedActivities.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pieces[i].dirRec.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game::drawBoard():Game.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapMark">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game::execute():Game.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "lastPosition/10 != y/90">
+            </PersistentString>
+            <PersistentString
+               value = "lastPosition%10 != x/90">
+            </PersistentString>
+            <PersistentString
+               value = "pieces.begin()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game::renderPosibleMoves(int, int, int):Game.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "x+i">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
