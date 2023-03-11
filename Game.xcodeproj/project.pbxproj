@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9827702529BD45F100F2DD13 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9827702229BD45A600F2DD13 /* SDL2.framework */; };
+		9827702629BD45F100F2DD13 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9827702229BD45A600F2DD13 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9827702929BD460500F2DD13 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9827702829BD460500F2DD13 /* SDL2_image.framework */; };
+		9827702A29BD460500F2DD13 /* SDL2_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9827702829BD460500F2DD13 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		983709D928E8A85600B14F90 /* blackKingRelatedActivities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 983709D828E8A85600B14F90 /* blackKingRelatedActivities.cpp */; };
 		983709DB28EB505100B14F90 /* BlackKingCheckmate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 983709DA28EB505100B14F90 /* BlackKingCheckmate.cpp */; };
 		983FF9BB28BF99EF00A42D42 /* whiteKingRelatedActivities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 983FF9BA28BF99EF00A42D42 /* whiteKingRelatedActivities.cpp */; };
@@ -19,13 +23,21 @@
 		98B15A2A28B0F05400EB5B4C /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98B15A2828B0F05400EB5B4C /* Board.cpp */; };
 		98FD772728BE1C08002E15B0 /* PiecesMoves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98FD772628BE1C08002E15B0 /* PiecesMoves.cpp */; };
 		98FE393A28D36D8D000A5B8E /* WhiteKingCheckmate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98FE393928D36D8D000A5B8E /* WhiteKingCheckmate.cpp */; };
-		98FE393B28D4E1FD000A5B8E /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9897EC7028AA98E5004105E6 /* SDL2_image.framework */; };
-		98FE393C28D4E1FD000A5B8E /* SDL2_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9897EC7028AA98E5004105E6 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		98FE393E28D4E1FF000A5B8E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9859E56728A56FDD006F57A4 /* SDL2.framework */; };
-		98FE393F28D4E1FF000A5B8E /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9859E56728A56FDD006F57A4 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9827702729BD45F100F2DD13 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9827702629BD45F100F2DD13 /* SDL2.framework in Embed Frameworks */,
+				9827702A29BD460500F2DD13 /* SDL2_image.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9859E55A28A56FB0006F57A4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,21 +47,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		98FE393D28D4E1FD000A5B8E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				98FE393C28D4E1FD000A5B8E /* SDL2_image.framework in Embed Frameworks */,
-				98FE393F28D4E1FF000A5B8E /* SDL2.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9827702229BD45A600F2DD13 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		9827702829BD460500F2DD13 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
 		983709D828E8A85600B14F90 /* blackKingRelatedActivities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blackKingRelatedActivities.cpp; sourceTree = "<group>"; };
 		983709DA28EB505100B14F90 /* BlackKingCheckmate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlackKingCheckmate.cpp; sourceTree = "<group>"; };
 		983FF9BA28BF99EF00A42D42 /* whiteKingRelatedActivities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = whiteKingRelatedActivities.cpp; sourceTree = "<group>"; };
@@ -68,7 +70,6 @@
 		98B15A2528B0B98F00EB5B4C /* Piece.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Piece.cpp; sourceTree = "<group>"; };
 		98B15A2628B0B98F00EB5B4C /* Piece.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Piece.hpp; sourceTree = "<group>"; };
 		98B15A2828B0F05400EB5B4C /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
-		98B15A2928B0F05400EB5B4C /* Board.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Board.hpp; sourceTree = "<group>"; };
 		98FD772628BE1C08002E15B0 /* PiecesMoves.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PiecesMoves.cpp; sourceTree = "<group>"; };
 		98FE393928D36D8D000A5B8E /* WhiteKingCheckmate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WhiteKingCheckmate.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,8 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98FE393B28D4E1FD000A5B8E /* SDL2_image.framework in Frameworks */,
-				98FE393E28D4E1FF000A5B8E /* SDL2.framework in Frameworks */,
+				9827702529BD45F100F2DD13 /* SDL2.framework in Frameworks */,
+				9827702929BD460500F2DD13 /* SDL2_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +118,6 @@
 				98B15A2528B0B98F00EB5B4C /* Piece.cpp */,
 				98B15A2628B0B98F00EB5B4C /* Piece.hpp */,
 				98B15A2828B0F05400EB5B4C /* Board.cpp */,
-				98B15A2928B0F05400EB5B4C /* Board.hpp */,
 				98FD772628BE1C08002E15B0 /* PiecesMoves.cpp */,
 			);
 			path = Game;
@@ -126,6 +126,8 @@
 		9859E56628A56FDD006F57A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9827702829BD460500F2DD13 /* SDL2_image.framework */,
+				9827702229BD45A600F2DD13 /* SDL2.framework */,
 				9897EC7028AA98E5004105E6 /* SDL2_image.framework */,
 				9859E56728A56FDD006F57A4 /* SDL2.framework */,
 			);
@@ -171,7 +173,7 @@
 				9859E55828A56FB0006F57A4 /* Sources */,
 				9859E55928A56FB0006F57A4 /* Frameworks */,
 				9859E55A28A56FB0006F57A4 /* CopyFiles */,
-				98FE393D28D4E1FD000A5B8E /* Embed Frameworks */,
+				9827702729BD45F100F2DD13 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,6 +359,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -373,6 +376,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
