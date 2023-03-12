@@ -6,6 +6,7 @@ Program is a chess game. It simulates chess board and implements all chess rules
 
 <!-- Image -->
 ![Main menu](https://github.com/BartiWhite/Chess/blob/main/graphics/mainmenu.png)
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay1.png" alt= “” width="300" height="300">
 ![Gameplay1](https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay1.png)
 ![Gameplay2](https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay2.png)
 ![Gameplay3](https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay3.png)
