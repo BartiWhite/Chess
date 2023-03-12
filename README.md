@@ -5,11 +5,10 @@
 Program is a chess game. It simulates chess board and implements all chess rules. It has been created with SDL2 open source graphics library. 
 
 <!-- Image -->
-![Main menu](https://github.com/BartiWhite/Chess/blob/main/graphics/mainmenu.png)
-<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay1.png" alt= “” width="300" height="300">
-![Gameplay1](https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay1.png)
-![Gameplay2](https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay2.png)
-![Gameplay3](https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay3.png)
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/mainmenu.png" alt= “MainMenu” width="600" height="600">
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay1.png" alt= “Gameplay1” width="600" height="600">
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay2.png" alt= “Gameplay2” width="600" height="600">
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay3.png" alt= “Gameplay3” width="600" height="600">
 
 ## Usage
 
