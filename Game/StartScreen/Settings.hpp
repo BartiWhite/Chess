@@ -2,7 +2,7 @@
 #define Settings_hpp
 
 #include <stdio.h>
-#include "/Library/Frameworks/SDL2.framework/Headers/SDL.h"
+#include "../../SDL2.framework/Versions/A/Headers/SDL.h"
 
 class Settings
 {

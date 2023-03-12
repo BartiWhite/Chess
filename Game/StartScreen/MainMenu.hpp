@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 #include "TextureMaker.hpp"
-#include "/Library/Frameworks/SDL2.framework/Headers/SDL.h"
-#include "/Library/Frameworks/SDL2_image.framework/Headers/SDL_image.h"
+#include "../../SDL2.framework/Versions/A/Headers/SDL.h"
+#include "../../SDL2_image.framework/Versions/A/Headers/SDL_image.h"
 
 class MainMenu
 {

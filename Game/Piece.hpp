@@ -1,7 +1,7 @@
 #ifndef Piece_hpp
 #define Piece_hpp
 
-#include "/Library/Frameworks/SDL2.framework/Headers/SDL.h"
+#include "../SDL2_image.framework/Headers/SDL_image.h"
 
 class Piece{
     
