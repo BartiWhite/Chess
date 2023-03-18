@@ -5,6 +5,7 @@
 Program is a chess game. It simulates chess board and implements all chess rules. It has been created with SDL2 open source graphics library. 
 
 <!-- Image -->
+<p>Main menu</p>
 <img src="https://github.com/BartiWhite/Chess/blob/main/graphics/mainmenu.png" alt= “MainMenu” width="600" height="600">
 <img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay1.png" alt= “Gameplay1” width="600" height="600">
 <img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay2.png" alt= “Gameplay2” width="600" height="600">
