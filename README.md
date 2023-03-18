@@ -7,9 +7,20 @@ Program is a chess game. It simulates chess board and implements all chess rules
 <!-- Image -->
 <p>Main menu</p>
 <img src="https://github.com/BartiWhite/Chess/blob/main/graphics/mainmenu.png" alt= “MainMenu” width="600" height="600">
+<p>Piece allowed moves</p>
 <img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay1.png" alt= “Gameplay1” width="600" height="600">
+<p>Piece capturing</p>
 <img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay2.png" alt= “Gameplay2” width="600" height="600">
+<p>Check</p>
 <img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay3.png" alt= “Gameplay3” width="600" height="600">
+<p>Promotion</p>
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay4.png" alt= “Gameplay4” width="600" height="600">
+<p>En passant</p>
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay5.png" alt= “Gameplay5” width="600" height="600">
+<p>Castling</p>
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay6.png" alt= “Gameplay6” width="600" height="600">
+<p>Pinning</p>
+<img src="https://github.com/BartiWhite/Chess/blob/main/graphics/gameplay7.png" alt= “Gameplay7” width="600" height="600">
 
 ## Usage
 
